@@ -1,0 +1,36 @@
+.student-form{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.student-form__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    width: 25rem;
+    align-self: center;
+    box-shadow: 0.25rem 0.25rem 0.25rem #757575;
+    background: #FFD600;
+    color: #221122;
+    border-radius: 1rem;
+    /* border: 1px solid white; */
+
+    /* align-items: center; */
+}
+
+.student-form__wrapper__input-wrapper {
+    /* border: 1px solid white; */
+    padding: 1rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-form__wrapper__input-wrapper input {
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    padding: 0 1rem;
+}
